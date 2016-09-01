@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Full Proyect</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Roboto', sans-serif;
+        }
+        video, .capa {
+            background-size: cover;
+            bottom: 0;
+            height: auto;
+            min-height: 100%;
+            min-width: 100%;
+            position: fixed;
+            right: 0;
+            width: auto;
+            z-index: -100;
+        }
+        .capa{
+            background-color: rgba(255,255,255,.5);
+            z-index: -50;
+        }
+        .foot{
+            position: fixed;
+            bottom:2px;
+            width: 100%;
+            text-align: center;
+            z-index: 1
+        }
+        .foot a{
+            text-decoration: none;
+            color: black;
+        }
+        .foot a:hover{
+            text-decoration: underline;
+        }
+        img{
+            width: 20%;
+            margin-top: 4em;
+        }
+        p{
+            font-size: 3em;
+        }
+        body{
+            text-align: center
+        }
+    </style>
+</head>
+<body>
+    <video muted autoplay loop preload="auto" poster="img/video.jpg" width="640" height="360">
+        <source src="video/video.mp4" type="video/mp4" />
+        <source src="video/video.webm" type="video/webm" />
+        Tu navegador no soporta HTML5 Video
+    </video>    
+    
+    <div class="capa"></div>
+    
+    <img src="img/logo1.png" alt="">
+    
+    <p>¡Pronto volveremos!</p>
+    
+    <div class="foot">
+        <a href="http://www.bitealo.cl">Desarrollado por bitealo.cl</a>
+    </div>
+</body>
+</html>
