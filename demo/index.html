@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+	<script src="js/slider/responsiveslides.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Full Proyect</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script>
+	  $(function() {
+	    $(".rslides").responsiveSlides();
+	  });
+	</script>
+</head>
+<body>
+	<header>
+		<div class="container-fluid">
+			<div class="row fondo-1">
+				<div class="col-md-12 transparente">
+					<img src="img/LogoALTA.png" alt="LOGO" class="img-responsive logo">
+				</div>
+			</div>
+		<nav class="navbar navbar-default" role="navigation">
+  <!-- El logotipo y el icono que despliega el menú se agrupan
+       para mostrarlos mejor en los dispositivos móviles -->
+			  <div class="navbar-header">
+			   	 <button type="button" class="navbar-toggle" data-toggle="collapse"
+			            data-target=".navbar-ex1-collapse">
+			     		<span class="sr-only">Desplegar navegación</span>
+			      	<span class="icon-bar"></span>
+			     		<span class="icon-bar"></span>
+			     		<span class="icon-bar"></span>
+			    	</button>
+			   </div>			 
+			  <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+			       otro elemento que se pueda ocultar al minimizar la barra -->
+			  <div class="option animated slideInLeft collapse navbar-collapse navbar-ex1-collapse" id="navegador">
+			    <ul class=" nav navbar-nav">
+			      	<li class="text-center"><a href="#">Inicio</a></li>
+			      	<li class="text-center"><a href="#">Nosotros</a></li>
+			      	<li class="text-center"><a href="#">Servicios</a></li>
+			      	<li class="text-center"><a href="#">Contacto</a></li>
+			      	<a href=""><span class="icon-facebook-with-circle"></span></a>
+			    	<a href=""><span class="icon-twitter-with-circle"></span></a>
+			    	<a href=""><span class="icon-linkedin-with-circle"></span></a>
+			    </ul>
+			    	
+			  </div>
+			</nav>
+		</div>
+	</header>
+	<section class="container-fluid" id="nosotros">
+		<div class="row">
+			<div class="col-md-4 col-xs-12 col-md-offset-1">
+				<h2 id="nosotrosTitulo">Nosotros</h2>
+				<h4 class="nosotrosParrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eos ea nisi maxime accusamus corporis tempora, officiis qui deleniti quia adipisci ipsum laboriosam, voluptas laudantium voluptatibus sed eaque quam! Neque.
+				</h4>
+				<h4 class="nosotrosParrafo">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat voluptatibus molestias vitae dolor a eos incidunt corporis soluta modi, asperiores dolores, voluptate, alias voluptatem id voluptatum provident eum ad architecto.
+				</h4>
+			</div>
+			<div class="col-md-5 col-xs-12 col-md-offset-1">
+				<ul class="rslides">
+				  <li><img src="img/slider/slide2.jpg" alt=""></li>
+				  <li><img src="img/slider/slide3.jpg" alt=""></li>
+				</ul>
+			</div>		
+		</div>
+	</section>
+		<section class="contacto">
+			<div class="row">
+			  	<div class="col-md-offset-1 col-md-4">
+					<form role="form" action="contacto.php">
+					<h2>Contactanos</h2>
+					 <div class="form-group">
+					  	    <input type="Nombre" class="form-control"
+						           placeholder="Nombre">
+					 </div>
+					 <div class="form-group">
+					  	    <input type="Nombre" class="form-control"
+						           placeholder="Email">
+					 </div>
+					 <div class="form-group">
+					  	    <input type="Nombre" class="form-control"
+						           placeholder="Asunto">
+					 </div>
+					 <div class="form-group">
+					  	    <textarea type="Nombre" class="form-control" placeholder="Mensaje"></textarea>
+					 </div>
+					  <button type="submit" class="btn btn-primary">Enviar</button>
+					</form>
+				</div>		
+				<div class="col-md-offset-1 col-md-6">
+					
+					<h4 class="nosotrosParrafo">
+						"Dejalo en Nuestras Manos"
+					</h4>
+				</div>		    	 			
+    	 	</div>
+	</section>
+	<footer>
+		
+		<div class="col-md-4 col-xs-hidden">
+			<img src="img/LogoALTA.png" alt="" class="center-block">
+		</div>
+		<div class="col-md-4 col-xs-12">
+			<ul class="listaFooter">
+				<li>Mapa del Sitio</li>
+				<li>Inicio</li>
+				<li>Servicio</li>
+				<li>Nosotros</li>
+				<li>Contacto</li>
+			</ul>
+		</div>
+		<div class="col-md-4 col-xs-12">
+			<h2>Contactanos</h2>
+			<h3>+56 999 999 999</h3>
+			<h3>contacto@fullproyect.cl</h3>
+		</div>
+
+	</footer>
+</body>
+</html>

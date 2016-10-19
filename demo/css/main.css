@@ -1,0 +1,153 @@
+@font-face{
+	font-family: 'Villeray-Light';
+	font-size: normal;
+	font-weight: normal;
+	src: local('Villeray-Light'), url('Villeray-Light.woff') format('woff');
+}
+*{
+	font-family: 'Villeray-Light' !important;
+}
+.logo{
+	width: 600px;
+	margin:0 auto;
+}
+.fondo-1{
+	background-image: url(../img/home.jpg);
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.row{
+	width: 100%;
+}
+.transparente{
+	background-color: rgba(255,255,255,0.7);
+	width: 100%;
+	padding: 0;
+}
+.container-fluid{
+	padding:0 !important;
+}
+#navegador{
+	background-color: #BD1622 !important;
+}
+nav{
+	margin: 0 auto !important;
+}
+nav ul li a{
+	/*margin: 5px 40px;*/
+	color: white!important;
+}
+nav ul li a:hover{
+	color:grey !important;
+}
+nav ul li{
+	/*padding: 0 70px*/;
+	font-size: 20px;
+	padding: 5px 5px;
+}
+nav ul{
+	width: 100%;
+}
+nav ul a span{
+	float: right;
+	text-decoration: none;
+	color: white;
+	font-size: 2em;
+	margin: .6em;
+}
+nav ul a span:hover{
+	color:grey;
+}
+.option {
+    -webkit-animation-duration: .5s;
+    -webkit-animation-delay: 1s;
+}
+#nosotros{
+	margin-top: 3em;
+}
+#nosotrosTitulo{
+
+}	
+.nosotrosParrafo{
+	padding: 1em;
+	text-align: justify;
+}
+.contacto{
+	margin-top: 5em;
+	background-image: url('../img/pies.jpg');
+	background-size: cover;
+	background-position:center;
+	height: 30em;
+	color: white;
+}
+.contacto form h2{
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+.contacto h4{
+	font-size: 2.4em;
+	font-style: italic;
+	background-color: rgba(255,255,255,.5);
+	height: 12.5em;
+	margin: 0;
+	color: #BD1622;
+	letter-spacing: 3px;
+	padding-top: 5em;
+	padding-left: 2em;
+}
+footer div{
+	background-color:#313131;
+	color: white;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	height: 17em;
+}
+footer img{
+	width: 70%;	
+}
+footer ul{
+	margin-top: 1.5em;
+}
+footer ul li{
+	list-style: none;
+	font-size: 1em;
+}
+footer ul li:first-child{
+	margin: .3em;
+	margin-bottom: .5em;
+	font-size: 1.2em;
+}
+/*Slide*/
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
