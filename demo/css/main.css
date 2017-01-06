@@ -5,8 +5,13 @@
 	src: local('Villeray-Light'), url('Villeray-Light.woff') format('woff');
 }
 *{
-	font-family: 'Villeray-Light' !important;
+	font-family: 'Villeray-Light';
 }
+section{
+  	min-height: 65vh;
+  	padding-top: 4em !important;
+  	padding-bottom: 4em !important;
+  }
 .logo{
 	width: 600px;
 	margin:0 auto;
@@ -17,6 +22,7 @@
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 100%;
+	margin:0;
 }
 .row{
 	width: 100%;
@@ -31,18 +37,19 @@
 }
 #navegador{
 	background-color: #BD1622 !important;
+
 }
 nav{
 	margin: 0 auto !important;
 }
-nav ul li a{
+nav ul li a, .menu-contacto a{
 	/*margin: 5px 40px;*/
 	color: white!important;
 }
-nav ul li a:hover{
+nav ul li a:hover, .menu-contacto:hover a{
 	color:grey !important;
 }
-nav ul li{
+nav ul li, .menu-contacto{
 	/*padding: 0 70px*/;
 	font-size: 20px;
 	padding: 5px 5px;
@@ -60,42 +67,85 @@ nav ul a span{
 nav ul a span:hover{
 	color:grey;
 }
+.menu-contacto{
+	position:absolute;
+	right: 0;
+	display: block;
+	padding:15px;
+}
+.menu-contacto a{
+	text-decoration: none;
+}
 .option {
     -webkit-animation-duration: .5s;
     -webkit-animation-delay: 1s;
 }
-#nosotros{
+.nosotros{
 	margin-top: 3em;
 }
-#nosotrosTitulo{
-
+.nosotrosTitulo{
+	margin-top: 1.8em;
 }	
 .nosotrosParrafo{
-	padding: 1em;
-	text-align: justify;
+	padding: .5em;
+	text-align: center;
+}
+.nosotrosParrafo p{
+	font-weight: bold;
+	padding-bottom: 1.5em;
+}
+.serviciosTitulo{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 2em;
+}
+.serviciosTextos, .serviciosSubTitulos{
+	text-align: center;
+}
+.serviciosTextos{
+	font-size: 18px;
+	padding-bottom: 4em;
+}
+.servicios i{
+	width:100%;
+	text-align: center;
+	font-size: 4em;
+}
+.servicios{
+	text-align: center;
+	background: url(../img/galpon.JPG),rgba(255,255,255,.65);
+	background-blend-mode: lighten;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 6em;
 }
 .contacto{
-	margin-top: 5em;
-	background-image: url('../img/pies.jpg');
+	margin-top: 2em;
+	background-image: url(../img/mantencion.jpg);
 	background-size: cover;
 	background-position:center;
 	height: 30em;
-	color: white;
+	color: black;
+	padding: 1em;
 }
 .contacto form h2{
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	margin-top: 1em;
 }
 .contacto h4{
-	font-size: 2.4em;
-	font-style: italic;
-	background-color: rgba(255,255,255,.5);
-	height: 12.5em;
+	font-size: 1.6em;
+	background-color: rgba(0,0,0,0.6);
+	height: 14.5em;
 	margin: 0;
-	color: #BD1622;
-	letter-spacing: 3px;
-	padding-top: 5em;
-	padding-left: 2em;
+	color: white;
+	letter-spacing: 2px;
+	padding-top: 3em;
+	padding-bottom: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+footer{
+	border-top:1px solid white;
 }
 footer div{
 	background-color:#313131;
@@ -127,6 +177,8 @@ footer ul li:first-child{
   width: 100%;
   padding: 0;
   margin: 0;
+  margin-top: 5em;
+  max-height: 45vh;
   }
 
 .rslides li {
@@ -146,8 +198,36 @@ footer ul li:first-child{
 
 .rslides img {
   display: block;
-  height: auto;
   float: left;
-  width: 100%;
+  max-width: 100%;
   border: 0;
+  }
+  
+  .proyectos{
+  	margin-top: 3em;
+  	padding-bottom: 7em;
+  }
+  .proyectos span{
+	font-size: 3em;
+	margin-top: 1em;
+  }
+  .proyectos .detalle-servicio{
+	font-size: 1.2em;
+	padding-top: 3em;
+  }
+  .proyecto-item{
+  	padding: 1em;
+  }
+  .proyecto-item img{
+  	width: 60%;
+  	margin-left:20%;
+  }
+  .ElementoFixed {
+  	position:fixed;
+  	z-index:100;
+  	top:0;
+  	width: 100%;
+  }
+  #serv{
+  	margin-top: 2em;
   }
