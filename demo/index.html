@@ -5,13 +5,15 @@
 	<meta name="description" content="Sitio oficial empresa de construcción FullProyect">
 	<meta name="keywords" content="Construcción,mantención,gasfitería,pintura,estructuras-metálicas">
 	<meta name="author" content="bitealo.cl">
+	<link rel="icon" href="img/favicon.png">
+	<meta name="robots" content="index" />
+    <meta name="organization" content="fullproyect" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<title>Full Proyect</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/style.css">
 	<link href="https://file.myfontastic.com/9wXjoNDeRBq4PxohptgGnm/icons.css" rel="stylesheet">
 
 </head>
@@ -42,8 +44,9 @@
 			      	<li class="text-center"><a href="#nosotros">Nosotros</a></li>
 			      	<li class="text-center"><a href="#servicios">Servicios</a></li>
 			      	<li class="text-center"><a href="#proyectos">Proyectos</a></li>
+			      	<li class="text-center visible-xs li-contacto visible-sm hidden-md"><a href="#contacto">Contactanos</a></li>
 			    </ul>
-			    <span class="text-center menu-contacto"><a href="#contacto"><i class="icon-comments-o"></i> Contactanos</a></span>
+			    <span class="text-center menu-contacto hidden-xs hidden-sm"><a href="#contacto"><i class="icon-comments-o"></i> Contactanos</a></span>
 			    	
 			  </div>
 			</nav>
@@ -51,8 +54,8 @@
 	</header>
 	<section id="nosotros" class="nosotros">
 		<div class="row">
+			<h2 class="nosotrosTitulo serviciosTitulo">Nosotros</h2>
 			<div class="col-md-4 col-xs-12 col-md-offset-1">
-				<h2 class="nosotrosTitulo">Nosotros</h2>
 				<h4 class="nosotrosParrafo">En FullProyect hemos ayudado a nuestros clientes a realizar sus sueños y desafios de construcción, centrados en forjar una estrecha relación profesional. Desde la primera llamada telefónica a la finalización de proyecto, nuestra prioridad ha sido y será siempre la satisfaccion de nuestro cliente. 
 				</h4>
 				<h4 class="nosotrosParrafo">
@@ -63,10 +66,9 @@
 			</div>
 			<div class="col-md-5 col-xs-12 col-md-offset-1">
 				<ul class="rslides">
-				  <li><img src="img/slider/demo (1).jpg" alt=""></li>
-				  <li><img src="img/slider/slide3.jpg" alt=""></li>
-				  <li><img src="img/slider/demo (3).jpg" alt=""></li>
-				  <li><img src="img/slider/demo (4).jpg" alt=""></li>
+					<li style="background-image:url('img/slider/slide2.jpg');"></li>	
+				  <li style="background-image:url('img/slider/slide3.jpg');"></li>
+				  <li style="background-image:url('img/slider/demo (4).jpg');"></li>
 				</ul>
 			</div>		
 		</div>
@@ -75,92 +77,93 @@
 	<section class="servicios" id="servicios">
         <div class="row">
         	<h2 class="serviciosTitulo">Servicios</h2>
-            <div class="col-md-offset-2 col-xs-12 col-sm-12 col-md-4">
+        	<div class="col-md-offset-1 col-xs-12 col-sm-12 col-md-5">
+        		<ul class="rslides" id="slider2">
+        			<li><img src="img/slider2/s (1).jpg" alt=""></li>
+				  <li style="background-image:url('img/slider2/s (4).jpg');"></li>
+				  <li style="background-image:url('img/slider2/s (5).jpg');"></li>
+				  <li style="background-image:url('img/slider2/s (6).jpg');"></li>
+				  <li style="background-image:url('img/slider2/s (7)2.jpg');"></li>
+				  <li style="background-image:url('img/slider2/s (8).jpg');"></li>
+				  <li style="background-image:url('img/slider2/s (9)2.jpg');"></li>
+				  <li style="background-image:url('img/slider2/s (0)2.jpg');"></li>
+				</ul>
+            </div>
+            <div class=" col-xs-12 col-sm-12 col-md-5">
+            	<div class="row">
                     <i class="icon-widget"></i>
                     <h3 class="serviciosSubTitulos">Estructuras Metalicas</h3>
-                    <p class="serviciosTextos">Nos especializamos en estructuras metalicas como nvolventes, salas eléctricas, marquesinas de combustibles, galpones, plataformas, escaleras y barandas, cierres perimetrales, vallas peatonales,  etc.</p> 
-            </div>
-
-            <div class=" col-xs-12 col-sm-12 col-md-4">
+                    <p class="serviciosTextos">Nos especializamos en estructuras metalicas como envolventes, salas eléctricas, marquesinas de combustibles, galpones, plataformas, escaleras y barandas, cierres perimetrales, vallas peatonales,  etc.</p> 
+                </div>
+            	<div class="row">
                     <i class="icon-wrench"></i>
                     <h3 class="serviciosSubTitulos">Mantención Integral</h3>
                     <p class="serviciosTextos">Poseemos gran experiencia en habilitación de espacios y oficinas, obras civiles, climatizacion de espacios, electricidad, gasfitería, reparación de
 					fachadas y techumbres.
 					</p> 
+				</div>
             </div>
+        </div>
     </section>
 
 	<section class="proyectos" id="proyectos">
 		<div class="row">
-		<h2 class="serviciosTitulo">Servicios</h2>
-			<div class="col-md-8 col-xs-12 col-md-offset-2" id="serv">
-				<div class="row proyecto-item">
-					<div class="col-xs-12 col-md-4">
-						<img src="img/jumbo.png" alt="">
-					</div>
-					<div class="col-xs-12 col-md-8">
-						<h4 class="nosotrosParrafo">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eos ea nisi maxime accusamus corporis tempora, officiis qui deleniti quia adipisci ipsum laboriosam, voluptas laudantium voluptatibus sed eaque quam! Neque.
-						</h4>
-					</div>
-				</div>
-				<div class="row proyecto-item">
-					<div class="col-xs-12 col-md-8">
-						<h4 class="nosotrosParrafo">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eos ea nisi maxime accusamus corporis tempora, officiis qui deleniti quia adipisci ipsum laboriosam, voluptas laudantium voluptatibus sed eaque quam! Neque.
-						</h4>
-					</div>
-					<div class="col-xs-12 col-md-4">
-						<img src="img/jumbo.png" alt="">
-					</div>
-				</div>
-				<div class="row proyecto-item">
-					<div class="col-xs-12 col-md-4">
-						<img src="img/jumbo.png" alt="">
-					</div>
-					<div class="col-xs-12 col-md-8">
-						<h4 class="nosotrosParrafo">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eos ea nisi maxime accusamus corporis tempora, officiis qui deleniti quia adipisci ipsum laboriosam, voluptas laudantium voluptatibus sed eaque quam! Neque.
-						</h4>
-					</div>
-				</div>
-				<div class="row proyecto-item">
-					<div class="col-xs-12 col-md-8">
-						<h4 class="nosotrosParrafo">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eos ea nisi maxime accusamus corporis tempora, officiis qui deleniti quia adipisci ipsum laboriosam, voluptas laudantium voluptatibus sed eaque quam! Neque.
-						</h4>
-					</div>
-					<div class="col-xs-12 col-md-4">
-						<img src="img/jumbo.png" alt="">
-					</div>
-				</div>
-			</div>	
+		<h2 class="serviciosTitulo">Proyectos</h2>
+
+		<div class="container">
+		<div class="row">
+    		<div class="col-sm-6 col-md-4 proy" >
+    			<div class="imagen"style="background-image:url('img/junta.jpg');">
+    				<h4>Junta de Dilatación</h4>
+    			</div>
+    		</div>
+    		<div class="col-sm-6 col-md-4 proy" >
+    			<div class="imagen"style="background-image:url('img/envolvente.jpg');">
+    				<h4>Envolvente Eléctrico</h4>
+    			</div>
+    		</div>
+    		<div class="col-sm-6 col-md-4 proy">
+    			<div class="imagen" style="background-image:url('img/galpon.jpg');">
+    				<h4>Galpón GIS</h4>
+    			</div>
+    		</div>
+    		<div class="col-sm-6 col-md-4 proy">
+    			<div class="imagen" style="background-image:url('img/escalera.jpg');">
+    				<h4>Escalera de Acceso</h4>
+    			</div>
+    		</div>
+    		<div class="col-sm-6 col-md-4 proy" >
+    			<div class="imagen"style="background-image:url('img/s (3).jpg');">
+    				<h4>Marquesina Combustible</h4>
+    			</div>
+    		</div>
+    	</div>
 		</div>
 	</section>
 	<section class="contacto" id="contacto">
 			<div class="row">
 			  	<div class="col-md-offset-1 col-md-4">
-					<form role="form" action="contacto.php">
+					<form role="form" action="" id="formulario">
 					<h2>Contacto</h2>
 					 <div class="form-group">
-					  	    <input type="Nombre" class="form-control"
-						           placeholder="Nombre">
+					  	    <input type="text" class="form-control"
+						           placeholder="Nombre" name="nombre" required>
 					 </div>
 					 <div class="form-group">
-					  	    <input type="Nombre" class="form-control"
-						           placeholder="Email">
+					  	    <input type="email" class="form-control"
+						           placeholder="Email" required name="email">
 					 </div>
 					 <div class="form-group">
-					  	    <input type="Nombre" class="form-control"
-						           placeholder="Asunto">
+					  	    <input type="text" class="form-control"
+						           placeholder="Asunto" required name="asunto">
 					 </div>
 					 <div class="form-group">
-					  	    <textarea type="Nombre" class="form-control" placeholder="Mensaje"></textarea>
+					  	    <textarea type="texto" class="form-control" placeholder="Mensaje" required name="texto"></textarea>
 					 </div>
 					  <button type="submit" class="btn btn-primary btn-contacto text-center">Enviar</button>
 					</form>
 				</div>		
-				<div class="col-md-offset-1 col-md-6">
+				<div class="col-md-offset-1 col-md-6 mensaje-contacto hidden-xs hidden-sm">
 					
 					<h4 class="nosotrosParrafo text-center">
 					<p>Estamos con usted hasta el final</p>
@@ -172,33 +175,59 @@
     	 	</div>
 	</section>
 	<footer>
-		<div class="col-md-4 col-xs-hidden">
+		<div class="col-md-4">
 			<img src="img/LogoALTA.png" alt="" class="center-block">
 		</div>
 		<div class="col-md-4 col-xs-12">
 			<h2>Contáctenos</h2>
-			<h3> Cel. +56 999 999 999</h3>
+			<h3> Cel. +56 950 024 644</h3>
 			<h3>E-mail: contacto@fullproyect.cl</h3>
 		</div>
-		<div class="col-md-4 col-xs-12">
+		<div class="col-md-4 col-xs-12 hidden-sm hidden-xs">
 			<ul class="listaFooter">
 				<li>Mapa del Sitio</li>
-				<li>Home</li>
-				<li>Nosotros</li>
-				<li>Servicios</li>
-				<li>Estructuras</li>
-				<li>Proyectos</li>
-				<li>Contacto</li>
+				<li><a href="#nosotros">Nosotros</a></li>
+				<li><a href="#servicios">Servicios</a></li>
+				<li><a href="#proyectos">Proyectos</a></li>
+				<li><a href="#contacto">Contacto</a></li>
 			</ul>
 		</div>
 	</footer>
+
+	<div class="showimg">
+		<div class="row">
+			<div class="col-xs-1 col-xs-offset-11">
+				<i class="icon-times-circle-o"></i>
+			</div>
+		</div>
+		<div class="row">
+			<div class="contenedor">
+				<div class="foto">
+					<h4></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
-  <script src="js/slider/responsiveslides.js"></script>
-	<script src="js/bootstrap.js"></script>
+  <script src="js/responsiveslides.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script>
+		var mediaquery = window.matchMedia("(max-width: 767px)");
+		if (mediaquery.matches) {
+			$('#navegador').removeClass("animated");
+			$('#navegador').removeClass("slideInLeft");
+			
+			$('#navegador li, #navegador a').click(function(){
+				$('#navegador').removeClass('in');
+			})
+		}
+
+
+
 	  $(function() {
 	    $(".rslides").responsiveSlides();
 	  });
@@ -212,10 +241,38 @@
 		  $('#navegador').removeClass('ElementoFixed');
 		  }
 		 });
-		 $('#navegador a').click(function(e){
+		 $('#navegador a, footer a').click(function(e){
 			e.preventDefault();
 			$('html, body').stop().animate({scrollTop: $($(this).attr('href')).offset().top}, 700);
 		});
+
+
+		 $('#formulario').submit(function(e){
+		 	$.ajax({
+                data: $(this).serialize(),
+                url:   'contacto.php',
+                type:  'post',
+                success:  function (response) {
+                    alert('Muchas Gracias, Pronto te contactaremos.');
+                    alert(response);
+                }
+        	});
+        	e.preventDefault();
+		 });
+
+
+		 // Mostrar imagen de proyecto
+		 $('.proyectos .imagen').click(function(){
+		 	var fondo = $(this).css('background-image');
+		 	// var nombre =$(this,'h4').text();
+		 	// $('.showimg h4').text(nombre);
+		 	$('.showimg .foto').css('background-image', fondo);
+		 	$('.showimg').fadeIn('slow');
+		 });
+		 $('.showimg i, .showimg').click(function(){
+		 	$('.showimg').fadeOut('fast');
+		 })
+
 		});
 	</script>
 </body>
